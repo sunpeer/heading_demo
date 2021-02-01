@@ -3,7 +3,7 @@
 
 #include <rtthread.h>
 #include <board.h>
-
+#include "math_def.h"
 //根据面包板的那个版本的接线图来确定以下的对应关系
 
 #define LF_IN1 GET_PIN(B,0)
@@ -56,8 +56,5 @@ void set_spd(float x_vel, float y_vel, float z_rota);
 void update_car(void);
 
 
-#define min(a,b) ((a<b)?a:b)
-#define max(a,b) ((a>b)?a:b)
-#define confine(amt,low,high)     (max(min(amt, high),low))
 
 #endif

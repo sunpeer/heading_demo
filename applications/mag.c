@@ -11,9 +11,6 @@
 #include "mag.h"
 
 
-#define RAD_TO_DEG 57.2957795f
-#define DEG_TO_RAD 0.01745329f
-
 rt_device_t mag;
 struct hmc5883_3axes valueOffset={57,61,-378};
 

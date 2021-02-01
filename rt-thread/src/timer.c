@@ -26,7 +26,7 @@ static rt_list_t rt_timer_list[RT_TIMER_SKIP_LIST_LEVEL];
 
 #ifdef RT_USING_TIMER_SOFT
 #ifndef RT_TIMER_THREAD_STACK_SIZE
-#define RT_TIMER_THREAD_STACK_SIZE     512
+#define RT_TIMER_THREAD_STACK_SIZE     1024
 #endif
 
 #ifndef RT_TIMER_THREAD_PRIO

@@ -6,6 +6,7 @@
 #include "hmc5883.h"
 #include "sensor_intf_hmc5883.h"
 #include "math.h"
+#include "math_def.h"
 
 double mag_read();
 
